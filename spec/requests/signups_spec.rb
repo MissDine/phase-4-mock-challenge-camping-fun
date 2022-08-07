@@ -22,7 +22,7 @@ RSpec.describe "Signups", type: :request do
           id: a_kind_of(Integer),
           name: "Archery",
           difficulty: 2
-        })
+      })
       end
 
       it 'returns a status code of 201 (created)' do
